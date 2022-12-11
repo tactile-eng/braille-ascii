@@ -1,0 +1,14 @@
+[package]
+name = "braille-ascii"
+version = "0.1.0"
+authors = ["Alex Moon"]
+edition = "2021"
+description = "A crate for using and translating Braille ASCII strings"
+documentation = "https://docs.rs/braille-ascii"
+repository = "https://github.com/tactile-eng/braille-ascii"
+license = "MIT OR Apache-2.0"
+keywords = ["braille", "accessibility"]
+categories = ["accessibility", "text-processing"]
+
+[dependencies]
+ascii = "1.1.0"
